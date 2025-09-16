@@ -121,3 +121,32 @@
  .hamburger-icon {
    height: 50px;
  }
+
+  article {
+   padding: 32px 16px;
+   background-color: var(--base-light);
+   border-radius: 10px;
+   margin: 5px 10px;
+   transition: all 0.3s ease;
+ }
+ 
+ article:hover {
+   filter: contrast(150%);
+ }
+ 
+
+ article .icon {
+   height: 24px;
+   width: 24px;
+   margin-left: 10px;
+   margin-right: 10px;
+ }
+ 
+ article .article-heading h2 {
+   margin-bottom: 16px;
+   color: var(--base-dark);
+ }
+ 
+ article p {
+   margin-bottom: 16px;
+ }
