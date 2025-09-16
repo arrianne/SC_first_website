@@ -89,3 +89,17 @@
    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);
    transform: translateY(-4px);
  }
+
+  /* header */
+ header .mobile-header {
+   padding: 16px;
+ }
+
+ header button {
+   all: unset;
+ }
+ 
+ /* .logo */
+ .logo {
+   height: 50px;
+ }
