@@ -103,3 +103,21 @@
  .logo {
    height: 50px;
  }
+
+  /* .mobile-nav */
+ .mobile-nav a {
+   text-decoration: none;
+   color: var(--black);
+   display: block;
+  padding: 4px 16px;
+ }
+ 
+ /* .desktop-nav */
+ .desktop-nav {
+   display: none;
+ }
+ 
+ /* .hamburger-icon  */
+ .hamburger-icon {
+   height: 50px;
+ }
