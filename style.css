@@ -188,6 +188,13 @@ header button {
   height: 50px;
 }
 
+/* .articles-container  */
+@media (min-width: 768px) {
+  .articles-container {
+    display: flex;
+  }
+}
+
 article {
   padding: 32px 16px;
   background-color: var(--base-light);
@@ -196,8 +203,19 @@ article {
   transition: all 0.3s ease;
 }
 
+@media (min-width: 768px) {
+  article {
+    padding: 56px;
+  }
+}
+
 article:hover {
   filter: contrast(150%);
+}
+
+article .article-heading {
+  display: flex;
+  justify-content: flex-start;
 }
 
 article .icon {
