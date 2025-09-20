@@ -142,6 +142,11 @@ header button {
   height: 50px;
 }
 
+@media (min-width: 768px) {
+  .logo {
+    height: 100px;
+  }
+}
 /* .mobile-nav */
 .mobile-nav a {
   text-decoration: none;
@@ -153,6 +158,18 @@ header button {
 /* .desktop-nav */
 .desktop-nav {
   display: none;
+}
+
+@media (min-width: 768px) {
+  .desktop-nav a {
+    text-decoration: none;
+    font-size: larger;
+    color: var(--black);
+  }
+
+  .desktop-nav {
+    display: inline-block;
+  }
 }
 
 /* .hamburger-icon  */
